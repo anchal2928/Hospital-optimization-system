@@ -1,0 +1,432 @@
+#preloader{
+    background: white ;
+}
+#preloader img{
+    width: 100%; height: 100%;
+}
+
+*{
+    font-family: 'Mooli', sans-serif;
+}
+
+body{
+    background-color: #f8f9fa !important;
+}
+
+h2,
+p {
+    color: rgb(44, 3, 93) !important;
+}
+
+.top_section{
+    height: 4rem;
+}
+/* navbar */
+.top_section a img{
+    height: 50px; width: 50px;
+}
+
+
+.search-img{
+    margin-top: 0.5rem;
+}
+.search-img:hover, .login-img:hover{
+    height: 40px; width: 40px;
+
+}
+
+.nav-item:hover {
+    transform: scale(1.5);
+    padding: 10px;
+}
+
+.dropdown-menu:hover {
+    transform: none;
+}
+
+/* Overlay search */
+.overlay {
+    height: 5rem;    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    transition: 1s;
+}
+.overlay-content {
+    position: relative;
+    top: 1.6rem;
+    left: 20rem;
+    width: 50%;
+    text-align: center;
+}
+.overlay img{
+    position: absolute;
+    top: 16%; left:     6%;     
+    height: 50px; width: 50px;
+}
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 2px;
+    right: 45px;
+    font-size: 30px;
+    color: #fff;
+}
+.search-box {
+    width: 500px; height: 35px;
+    border-radius: 70px;
+    border: none;
+}
+
+/* login */
+.overlayUser {
+    height: 100rem!important;    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;    left: 0; right: 0;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    transition: 1s;
+}
+.overlay-content-user {
+    position: relative;
+    top: 5% !important; bottom: 5% !important;
+    height: 100%;
+    width: 36%!important;
+    text-align: center;
+}
+.overlay-content-user h2{
+    margin: 2%;
+}
+
+.overlayUser a:hover,
+.overlayUser a:focus ,.option_field label:hover{
+    color: rgb(44, 3, 93);
+    text-decoration: underline
+}
+.overlayUser .closebtn1 {
+    position: absolute;
+    top: 2px;
+    right: 45px;
+    font-size: 30px;
+}
+
+.input_box input{
+    width: 90%;
+    margin: 15px !important;
+    border: none;
+    border-bottom: 1.5px solid #aaaa;
+}
+.input_box input:focus{
+    border-color: rgb(44, 3, 93);
+    outline: none;
+}
+.option_field{
+    margin-top: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkbox{
+    white-space: nowrap;
+    font-size: 14px;
+    column-gap: 8px;
+}
+.checkbox label{
+    color: rgb(44, 3, 93);
+    cursor: pointer;
+    font-size: 14px;
+}
+.checkbox input{
+    accent-color: rgb(44, 3, 93);
+}
+
+
+
+.forgot_pw{
+    color: rgb(44, 3, 93);
+    text-align: right;
+}
+.overlay-content-user{
+    background-color: #fff;
+    width: 20rem; height: 30rem;
+    text-align: center!important;
+    left: 35%; 
+    border-radius: 10px;
+}
+#icon1, #icon2{
+    height: 1.5rem; width: 1.5rem;
+    position: absolute;
+    left: 8%; 
+    margin: 9px !important;
+}
+#icon1{
+    top: 16.5%;
+}
+#icon2{
+    top: 28%;
+}
+
+.closebtn1{
+    color: #fff !important;
+}
+
+.login_button{
+    background-color: rgb(44, 3, 93);
+    margin-top: 3%;
+    width: 80%;
+    padding:12px 0;
+    margin: 30px 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.form_container{
+    padding: 20px;
+}
+
+#signup{
+    color: rgb(44, 3, 93);
+}
+
+
+
+/* Intro slogan */
+#intro{
+    position: absolute;    
+    left: 2rem;
+    top: 35rem;
+    z-index: 101;
+}
+#intro h1{
+    font-family: 'Mooli', sans-serif;
+    font-size: 50px;
+    font-style: bold;
+    color: #f1f1f1;
+}
+#intro a img{
+    height: 3%; width: 3%;
+    margin: 0;
+}
+#intro a {
+    color: #f1f1f1;
+    font-family: 'Mooli', sans-serif;
+    font-style: bold; font-size: 18px;
+    margin: 2.5%;
+}
+#intro button{
+    font-family: 'Mooli', sans-serif;
+    font-style: bold; font-size: 18px;
+    color: #f1f1f1;
+    border-radius: 70px;
+    cursor: pointer;
+    border: 2px solid #f1f1f1;
+    background-color: black;
+    height: 12%; width: 25%;
+    
+}
+#intro button:hover{
+    text-decoration: underline;
+}
+#intro button img{
+    height: 12%; width: 12%;
+    margin: 2%;
+}
+
+
+
+
+/* video */
+.back-video {
+    width: 100%;
+    margin: 0;
+}
+
+/* About us */
+.about_us {
+    background-color: #f8f9fa;
+    padding: 2%;
+}
+.about_usText{
+    position: absolute;
+    left: 30%;
+    font-family: 'Mooli', sans-serif;
+    width: 40%;
+    text-align: center;
+}
+.about_usImage{
+    display: flex;
+    flex: 50%;
+}
+.about_usImage img{
+    height: 40%; width: 40%;
+}
+
+/* carasoul */
+.carousel-indicators{
+    color: rgb(44, 3, 93);
+}
+.steps h3{
+    font-weight: 150!important;
+    font-size: 2.5em !important;
+    color: rgb(44, 3, 93);
+    text-align: center;
+    margin: 3%;
+}
+.carousel-inner img{
+    width: 40rem ; height: 30rem;
+}
+.carousel-inner .convinient_checkup{
+    background-color:#D8D8D8 ;
+}
+.carousel-inner section{
+    float: right;
+    text-align: center;
+    width: 40%;
+    position: relative; right: 5%;
+    margin-top: 6%;
+}
+
+.carousel-inner .medical_dispensor{
+    background-color:#fff !important ;
+}
+
+
+/* footer  */
+.footer_bg{
+    background-color: #ACDBE1;
+    z-index: -1;
+    margin: 2% 0;
+}
+.right div div div img{
+    height: 50px; width: 50px;
+}
+footer {
+    width: 60%; float: right;
+    z-index: 101;
+    background-color: #ACDBE1;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    top: 339%;
+}
+.footer_minds{
+    position: relative;
+    top: -50 !important;
+}
+.footer_icons a img{
+    height: 25px; width: 25px;
+    margin: 0 4px;
+}
+.background_footer{
+    background-color: #17a2b8;
+}
+
+/* features */
+.features{
+    margin: 4%;
+}
+.features h3, h6{
+    color: rgb(44, 3, 93) !important ;
+    text-align: center;
+}
+.features table{
+    text-align: center;
+    margin: 3% 0; 
+}
+.features table th,td{
+    padding: 0 5% !important; 
+    width:20% ;
+}
+.features table tr th img{
+    margin: 4%;
+    width: 25%; height: 25%;
+}
+.features table tr:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 675px) {
+  .layout {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 2rem;
+  }
+  .w-50 {
+    width: 50%;
+  }
+  .w-25 {
+    width: 25%;
+  }
+}
+form {
+  position: relative;
+}
+svg {
+  margin: 0.5rem;
+}
+.c-2 {
+  margin-top: 3.5rem;
+}
+.footer_copyright {
+  color: var(--light);
+}
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .search-img, .login-img{
+        height: 30px;
+        width: 30x;
+    }
+    .overlay-content-user{
+        width: 15rem; height: 15rem;
+    }
+    input{
+        width: 13rem;
+    }
+    
+}
+
+@media (min-width: 480px) and (max-width: 769px) {
+    .search-img, .login-img{
+        height: 35px;
+        width: 35px;
+    }
+    .overlay-content-user{
+        width: 15rem; height: 15rem;
+    }
+    input{
+        width: 13rem;
+    }
+    
+}
+
+@media (min-width: 769px) {
+    .search-img, .login-img{
+        height: 35px;
+        width: 35px; 
+    }
+    .login-img{
+        position: absolute;
+        right: 4.5rem;  top: 1.5rem;  
+    }
+    
+
+}
+
+
+
+
+
+
+
